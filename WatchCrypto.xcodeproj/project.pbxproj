@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC207E027EBEE53005331C0 /* WatchCrypto WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DDC207DF27EBEE53005331C0 /* WatchCrypto WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DDC207E527EBEE55005331C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC207E427EBEE55005331C0 /* Assets.xcassets */; };
+		DDC207EB27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DDC207EA27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DDC207F027EBEE55005331C0 /* WatchCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207EF27EBEE55005331C0 /* WatchCryptoApp.swift */; };
+		DDC207F227EBEE55005331C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207F127EBEE55005331C0 /* ContentView.swift */; };
+		DDC207F427EBEE55005331C0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207F327EBEE55005331C0 /* NotificationController.swift */; };
+		DDC207F627EBEE55005331C0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207F527EBEE55005331C0 /* NotificationView.swift */; };
+		DDC207F827EBEE55005331C0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207F727EBEE55005331C0 /* ComplicationController.swift */; };
+		DDC207FA27EBEE57005331C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC207F927EBEE57005331C0 /* Assets.xcassets */; };
+		DDC207FD27EBEE57005331C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC207FC27EBEE57005331C0 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC207E127EBEE53005331C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC207D527EBEE52005331C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC207DE27EBEE53005331C0;
+			remoteInfo = "WatchCrypto WatchKit App";
+		};
+		DDC207EC27EBEE55005331C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC207D527EBEE52005331C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC207E927EBEE55005331C0;
+			remoteInfo = "WatchCrypto WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDC2080527EBEE57005331C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DDC207EB27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC2080927EBEE57005331C0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DDC207E027EBEE53005331C0 /* WatchCrypto WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDC207DB27EBEE52005331C0 /* WatchCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC207DF27EBEE53005331C0 /* WatchCrypto WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchCrypto WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC207E427EBEE55005331C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC207EA27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchCrypto WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC207EF27EBEE55005331C0 /* WatchCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCryptoApp.swift; sourceTree = "<group>"; };
+		DDC207F127EBEE55005331C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDC207F327EBEE55005331C0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DDC207F527EBEE55005331C0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		DDC207F727EBEE55005331C0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		DDC207F927EBEE57005331C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC207FC27EBEE57005331C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDC207FE27EBEE57005331C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC207FF27EBEE57005331C0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC207E727EBEE55005331C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC207D427EBEE52005331C0 = {
+			isa = PBXGroup;
+			children = (
+				DDC207E327EBEE53005331C0 /* WatchCrypto WatchKit App */,
+				DDC207EE27EBEE55005331C0 /* WatchCrypto WatchKit Extension */,
+				DDC207DC27EBEE52005331C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC207DC27EBEE52005331C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC207DB27EBEE52005331C0 /* WatchCrypto.app */,
+				DDC207DF27EBEE53005331C0 /* WatchCrypto WatchKit App.app */,
+				DDC207EA27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC207E327EBEE53005331C0 /* WatchCrypto WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DDC207E427EBEE55005331C0 /* Assets.xcassets */,
+			);
+			path = "WatchCrypto WatchKit App";
+			sourceTree = "<group>";
+		};
+		DDC207EE27EBEE55005331C0 /* WatchCrypto WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DDC207EF27EBEE55005331C0 /* WatchCryptoApp.swift */,
+				DDC207F127EBEE55005331C0 /* ContentView.swift */,
+				DDC207F327EBEE55005331C0 /* NotificationController.swift */,
+				DDC207F527EBEE55005331C0 /* NotificationView.swift */,
+				DDC207F727EBEE55005331C0 /* ComplicationController.swift */,
+				DDC207F927EBEE57005331C0 /* Assets.xcassets */,
+				DDC207FE27EBEE57005331C0 /* Info.plist */,
+				DDC207FF27EBEE57005331C0 /* PushNotificationPayload.apns */,
+				DDC207FB27EBEE57005331C0 /* Preview Content */,
+			);
+			path = "WatchCrypto WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DDC207FB27EBEE57005331C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDC207FC27EBEE57005331C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC207DA27EBEE52005331C0 /* WatchCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC2080A27EBEE57005331C0 /* Build configuration list for PBXNativeTarget "WatchCrypto" */;
+			buildPhases = (
+				DDC207D927EBEE52005331C0 /* Resources */,
+				DDC2080927EBEE57005331C0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC207E227EBEE53005331C0 /* PBXTargetDependency */,
+			);
+			name = WatchCrypto;
+			productName = WatchCrypto;
+			productReference = DDC207DB27EBEE52005331C0 /* WatchCrypto.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DDC207DE27EBEE53005331C0 /* WatchCrypto WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC2080627EBEE57005331C0 /* Build configuration list for PBXNativeTarget "WatchCrypto WatchKit App" */;
+			buildPhases = (
+				DDC207DD27EBEE53005331C0 /* Resources */,
+				DDC2080527EBEE57005331C0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC207ED27EBEE55005331C0 /* PBXTargetDependency */,
+			);
+			name = "WatchCrypto WatchKit App";
+			productName = "WatchCrypto WatchKit App";
+			productReference = DDC207DF27EBEE53005331C0 /* WatchCrypto WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DDC207E927EBEE55005331C0 /* WatchCrypto WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC2080227EBEE57005331C0 /* Build configuration list for PBXNativeTarget "WatchCrypto WatchKit Extension" */;
+			buildPhases = (
+				DDC207E627EBEE55005331C0 /* Sources */,
+				DDC207E727EBEE55005331C0 /* Frameworks */,
+				DDC207E827EBEE55005331C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchCrypto WatchKit Extension";
+			productName = "WatchCrypto WatchKit Extension";
+			productReference = DDC207EA27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC207D527EBEE52005331C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DDC207DA27EBEE52005331C0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DDC207DE27EBEE53005331C0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DDC207E927EBEE55005331C0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = DDC207D827EBEE52005331C0 /* Build configuration list for PBXProject "WatchCrypto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC207D427EBEE52005331C0;
+			productRefGroup = DDC207DC27EBEE52005331C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC207DA27EBEE52005331C0 /* WatchCrypto */,
+				DDC207DE27EBEE53005331C0 /* WatchCrypto WatchKit App */,
+				DDC207E927EBEE55005331C0 /* WatchCrypto WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC207D927EBEE52005331C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC207DD27EBEE53005331C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC207E527EBEE55005331C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC207E827EBEE55005331C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC207FD27EBEE57005331C0 /* Preview Assets.xcassets in Resources */,
+				DDC207FA27EBEE57005331C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC207E627EBEE55005331C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC207F427EBEE55005331C0 /* NotificationController.swift in Sources */,
+				DDC207F227EBEE55005331C0 /* ContentView.swift in Sources */,
+				DDC207F827EBEE55005331C0 /* ComplicationController.swift in Sources */,
+				DDC207F027EBEE55005331C0 /* WatchCryptoApp.swift in Sources */,
+				DDC207F627EBEE55005331C0 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC207E227EBEE53005331C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC207DE27EBEE53005331C0 /* WatchCrypto WatchKit App */;
+			targetProxy = DDC207E127EBEE53005331C0 /* PBXContainerItemProxy */;
+		};
+		DDC207ED27EBEE55005331C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC207E927EBEE55005331C0 /* WatchCrypto WatchKit Extension */;
+			targetProxy = DDC207EC27EBEE55005331C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDC2080027EBEE57005331C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC2080127EBEE57005331C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC2080327EBEE57005331C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchCrypto WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Y265J9L2SF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchCrypto WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchCrypto WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timbeers.WatchCrypto.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		DDC2080427EBEE57005331C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchCrypto WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Y265J9L2SF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchCrypto WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchCrypto WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timbeers.WatchCrypto.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		DDC2080727EBEE57005331C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y265J9L2SF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WatchCrypto_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchCrypto WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timbeers.WatchCrypto.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		DDC2080827EBEE57005331C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y265J9L2SF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WatchCrypto_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchCrypto WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timbeers.WatchCrypto.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		DDC2080B27EBEE57005331C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y265J9L2SF;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timbeers.WatchCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DDC2080C27EBEE57005331C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y265J9L2SF;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = timbeers.WatchCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC207D827EBEE52005331C0 /* Build configuration list for PBXProject "WatchCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC2080027EBEE57005331C0 /* Debug */,
+				DDC2080127EBEE57005331C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC2080227EBEE57005331C0 /* Build configuration list for PBXNativeTarget "WatchCrypto WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC2080327EBEE57005331C0 /* Debug */,
+				DDC2080427EBEE57005331C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC2080627EBEE57005331C0 /* Build configuration list for PBXNativeTarget "WatchCrypto WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC2080727EBEE57005331C0 /* Debug */,
+				DDC2080827EBEE57005331C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC2080A27EBEE57005331C0 /* Build configuration list for PBXNativeTarget "WatchCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC2080B27EBEE57005331C0 /* Debug */,
+				DDC2080C27EBEE57005331C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC207D527EBEE52005331C0 /* Project object */;
+}
