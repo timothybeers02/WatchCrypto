@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD7F6D6D27ED076300056BE0 /* CryptoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7F6D6B27ED076300056BE0 /* CryptoInfo.swift */; };
+		DD7F6D6E27ED076300056BE0 /* CMCApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7F6D6C27ED076300056BE0 /* CMCApiModel.swift */; };
+		DD7F6D7027ED084100056BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7F6D6F27ED084100056BE0 /* Assets.xcassets */; };
+		DD7F6D7127ED084100056BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7F6D6F27ED084100056BE0 /* Assets.xcassets */; };
 		DDC207E027EBEE53005331C0 /* WatchCrypto WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DDC207DF27EBEE53005331C0 /* WatchCrypto WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DDC207E527EBEE55005331C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC207E427EBEE55005331C0 /* Assets.xcassets */; };
 		DDC207EB27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DDC207EA27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DDC207F027EBEE55005331C0 /* WatchCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207EF27EBEE55005331C0 /* WatchCryptoApp.swift */; };
 		DDC207F227EBEE55005331C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207F127EBEE55005331C0 /* ContentView.swift */; };
@@ -16,7 +19,7 @@
 		DDC207F627EBEE55005331C0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207F527EBEE55005331C0 /* NotificationView.swift */; };
 		DDC207F827EBEE55005331C0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC207F727EBEE55005331C0 /* ComplicationController.swift */; };
 		DDC207FA27EBEE57005331C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC207F927EBEE57005331C0 /* Assets.xcassets */; };
-		DDC207FD27EBEE57005331C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC207FC27EBEE57005331C0 /* Preview Assets.xcassets */; };
+		DDC2081327EBEF25005331C0 /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC2081227EBEF25005331C0 /* CryptoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +65,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD7F6D6B27ED076300056BE0 /* CryptoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoInfo.swift; sourceTree = "<group>"; };
+		DD7F6D6C27ED076300056BE0 /* CMCApiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCApiModel.swift; sourceTree = "<group>"; };
+		DD7F6D6F27ED084100056BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "WatchCrypto WatchKit App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		DDC207DB27EBEE52005331C0 /* WatchCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC207DF27EBEE53005331C0 /* WatchCrypto WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchCrypto WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDC207E427EBEE55005331C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC207EA27EBEE55005331C0 /* WatchCrypto WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchCrypto WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC207EF27EBEE55005331C0 /* WatchCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCryptoApp.swift; sourceTree = "<group>"; };
 		DDC207F127EBEE55005331C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,9 +77,9 @@
 		DDC207F527EBEE55005331C0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		DDC207F727EBEE55005331C0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		DDC207F927EBEE57005331C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DDC207FC27EBEE57005331C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDC207FE27EBEE57005331C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC207FF27EBEE57005331C0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DDC2081227EBEF25005331C0 /* CryptoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +93,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD7F6D6A27ED076300056BE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD7F6D6B27ED076300056BE0 /* CryptoInfo.swift */,
+				DD7F6D6C27ED076300056BE0 /* CMCApiModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DDC207D427EBEE52005331C0 = {
 			isa = PBXGroup;
 			children = (
-				DDC207E327EBEE53005331C0 /* WatchCrypto WatchKit App */,
+				DDC207E327EBEE53005331C0 /* WatchCryptoGo WatchKit App */,
 				DDC207EE27EBEE55005331C0 /* WatchCrypto WatchKit Extension */,
 				DDC207DC27EBEE52005331C0 /* Products */,
 			);
@@ -107,17 +121,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDC207E327EBEE53005331C0 /* WatchCrypto WatchKit App */ = {
+		DDC207E327EBEE53005331C0 /* WatchCryptoGo WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				DDC207E427EBEE55005331C0 /* Assets.xcassets */,
+				DD7F6D6F27ED084100056BE0 /* Assets.xcassets */,
 			);
-			path = "WatchCrypto WatchKit App";
+			path = "WatchCryptoGo WatchKit App";
 			sourceTree = "<group>";
 		};
 		DDC207EE27EBEE55005331C0 /* WatchCrypto WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DD7F6D6A27ED076300056BE0 /* Model */,
 				DDC207EF27EBEE55005331C0 /* WatchCryptoApp.swift */,
 				DDC207F127EBEE55005331C0 /* ContentView.swift */,
 				DDC207F327EBEE55005331C0 /* NotificationController.swift */,
@@ -126,17 +141,9 @@
 				DDC207F927EBEE57005331C0 /* Assets.xcassets */,
 				DDC207FE27EBEE57005331C0 /* Info.plist */,
 				DDC207FF27EBEE57005331C0 /* PushNotificationPayload.apns */,
-				DDC207FB27EBEE57005331C0 /* Preview Content */,
+				DDC2081227EBEF25005331C0 /* CryptoCell.swift */,
 			);
 			path = "WatchCrypto WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		DDC207FB27EBEE57005331C0 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DDC207FC27EBEE57005331C0 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC207E527EBEE55005331C0 /* Assets.xcassets in Resources */,
+				DD7F6D7027ED084100056BE0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC207FD27EBEE57005331C0 /* Preview Assets.xcassets in Resources */,
+				DD7F6D7127ED084100056BE0 /* Assets.xcassets in Resources */,
 				DDC207FA27EBEE57005331C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC207F427EBEE55005331C0 /* NotificationController.swift in Sources */,
+				DD7F6D6D27ED076300056BE0 /* CryptoInfo.swift in Sources */,
+				DD7F6D6E27ED076300056BE0 /* CMCApiModel.swift in Sources */,
 				DDC207F227EBEE55005331C0 /* ContentView.swift in Sources */,
 				DDC207F827EBEE55005331C0 /* ComplicationController.swift in Sources */,
+				DDC2081327EBEF25005331C0 /* CryptoCell.swift in Sources */,
 				DDC207F027EBEE55005331C0 /* WatchCryptoApp.swift in Sources */,
 				DDC207F627EBEE55005331C0 /* NotificationView.swift in Sources */,
 			);
@@ -414,7 +424,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchCrypto WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchCrypto WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchCrypto_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -446,7 +456,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchCrypto WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchCrypto WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchCrypto_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
